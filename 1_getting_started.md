@@ -47,6 +47,7 @@ Creating mychart
 
 ```console
 $ rm -rf mychart/templates/*.*
+$ rm -rf mychart/templates/tests
 ```
 
 참고로, 여러분이 실제 운영 (production) 단게 의 차트를 작성하고 있다면, 차트들의 기본 버전들을 설정하는 것이 좋습니다. 예를 들어, Github를 통해 각 차트의 버저닝을 하는 것도 나쁘지는 않겠죠.
