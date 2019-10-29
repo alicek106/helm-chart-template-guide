@@ -11,7 +11,7 @@
   - **'Release.Time**' : release가 생성된 시간입니다.
   - **'Release.Namespace'** : release가 생성될 네임스페이스입니다. (매니페스트 파일에서 덮어 씌워질 수 있습니다)
   - **'Release.Service'** : 서비스를 생성하는 주체의 이름입니다. (항상 `Tiller` 로 설정됩니다. Helm 3부터는 어떻게 될 지 모르겠네요)
-  - **'Release.Revision' **: 이 Release의 리비전 번호입니다. 이 값은 1부터 시작해서 `helm upgrade` 명령어를 사용할 때마다 1씩 올라갑니다.
+  - **'Release.Revision'**: 이 Release의 리비전 번호입니다. 이 값은 1부터 시작해서 `helm upgrade` 명령어를 사용할 때마다 1씩 올라갑니다.
   - **'Release.IsUpgrade'** : 현재 실행하는 명령이 helm upgrade나 rollback 이라면 `true` 로 설정됩니다.
   - **'Release.IsInstall'** : 현재 실행하는 명령이 helm install 이라면 `true` 로 설정됩니다.
 
